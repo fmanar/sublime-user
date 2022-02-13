@@ -1,0 +1,8 @@
+{
+	"shell_cmd": "env\\scripts\\python.exe -u $file",
+	"selector": "source.python",
+	"file_regex": "^\\s*File \"(...*?)\", line ([\\d]*)",
+	"variants": [
+		{"name": "Interactive", "shell_cmd": "start cmd.exe /k env\\scripts\\python.exe $file"}
+	]
+}

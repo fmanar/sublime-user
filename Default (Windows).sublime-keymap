@@ -1,0 +1,13 @@
+[
+	// search in selection toggle
+	{"keys": ["alt+y"], "command": "toggle_in_selection", "context": [
+		{"key": "panel_type", "operand": "find"},
+		{"key": "panel_has_focus"},
+	]},
+
+	// wrap to 72
+	{"keys": ["alt+`"], "command": "wrap_lines", "args": {"width": 72}},
+
+	// toggle minimap
+	{"keys": ["ctrl+k", "ctrl+m"], "command": "toggle_minimap"},
+]

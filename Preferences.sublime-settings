@@ -1,0 +1,43 @@
+{
+	// appearance
+	"font_face": "inconsolata",
+	"font_size": 12,
+
+	// tabs
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"use_tab_stops": true,
+
+	// behavior
+	"auto_complete_commit_on_tab": true,
+	"open_files_in_new_window": "always",
+	"hot_exit": "disabled",
+	"remember_open_files": false,
+	"remember_full_screen": false,
+	"remember_workspace": false,
+	"remember_layout": false,
+	"save_on_focus_lost": true,
+
+	// whitespace
+	"trim_trailing_white_space_on_save": "all",
+	"trim_only_modified_white_space": false,
+	"ensure_newline_at_eof_on_save": true,
+	"draw_white_space": ["selection", "trailing", "isolated"],
+
+	// visuals
+	"rulers": [80],
+	"mini_diff": "auto",
+
+
+	"ignored_packages": [
+		"LSP-rust-analyzer",
+		"Rust Enhanced",
+		"Vintage",
+	],
+	"added_words": [
+		"voluntold",
+		"repo",
+		"repos",
+		"Manar",
+	],
+}
