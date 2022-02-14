@@ -1,0 +1,6 @@
+*
+!.gitignore
+!Preferences.sublime-settings
+!Default (Linux).sublime-keymap
+!Default (Windows).sublime-keymap
+!Python env.sublime-build
